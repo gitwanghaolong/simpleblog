@@ -1,0 +1,30 @@
+<footer id="footer">
+    <div class="container">
+        <div class="container-inner">
+            <a id="back-to-top" href="javascript:;"><i class="icon fa fa-angle-up"></i></a>
+            <div class="credit">
+                <h1 class="logo-wrap">
+                    <a href="<%- url_for() %>" class="logo"></a>
+                </h1>
+                <p>&copy; <%= date(new Date(), 'YYYY') %> <%= config.author || config.title %></p>
+                <% if (theme.poweredby) { %>
+                            <!--不蒜子的访问量统计代码-->
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次 &nbsp;   </span>
+<span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv"></span>人次</span>
+                <p style="text-align:center;font-weight:bold">
+                   <!-- Powered by 
+                    <a href="https://hexo.io/" target="_blank">Hexo</a>
+                    . Theme by 
+                    <a href="https://github.com/ppoffice" target="_blank">PPOffice</a>
+                    -->
+                    <a href="http://www.miitbeian.gov.cn" target="_blank">豫ICP备XXXXXX号</a>
+                </p>
+                <% } %>
+            </div>
+            <div class="footer-plugins">
+              <%- partial('plugin/scripts', { isFooter: true }) %>
+            </div>
+        </div>
+    </div>
+</footer>
