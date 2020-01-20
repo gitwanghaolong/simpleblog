@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: 
+Disallow: /bin/
+Sitemap: https://www.soeasycode.com/sitemap.xml
+Sitemap: https://www.soeasycode.com/baidusitemap.xml

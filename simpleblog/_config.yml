@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: 47.104.137.217 #http://soeasycode.com
+url: https://www.soeasycode.com
 root: / #simpleblog
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,7 +99,7 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: localhost
+  host: 47.104.137.217
   user: hexo
   root: /opt/app/nginx/nginx1.15/html/simpleblog
   port: 22
