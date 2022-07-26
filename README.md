@@ -3,6 +3,7 @@
 
 # 特点
 ```
+基于hexo
 基于Node.js
 markdown写作,自动解析
 一键化部署到服务器
