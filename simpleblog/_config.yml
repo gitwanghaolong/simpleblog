@@ -1,7 +1,3 @@
-# Hexo Configuration
-## Docs: https://hexo.io/docs/configuration.html
-## Source: https://github.com/hexojs/hexo/
-
 # Site
 title: simple blog
 subtitle: '读万卷书,行万里路'
@@ -91,15 +87,12 @@ exclude:
 ignore:
 
 # Extensions
-## Plugins: https://hexo.io/plugins/
-## Themes: https://hexo.io/themes/
 theme: hueman
 
 # Deployment
-## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 47.104.137.217
+  host: 127.0.0.1
   user: hexo
   root: /opt/app/nginx/nginx1.15/html/simpleblog
   port: 22
