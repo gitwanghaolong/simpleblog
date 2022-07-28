@@ -1,3 +1,7 @@
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
 # Site
 title: simple blog
 subtitle: '读万卷书,行万里路'
@@ -25,7 +29,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: coc/*
 
 # Writing
 new_post_name: :title.md # File name of new posts
@@ -87,9 +91,12 @@ exclude:
 ignore:
 
 # Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
 theme: hueman
 
 # Deployment
+## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
   host: 127.0.0.1
