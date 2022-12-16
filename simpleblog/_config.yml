@@ -99,9 +99,9 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 47.104.137.217
+  host: 123.60.176.244
   user: hexo
-  root: /opt/app/nginx/nginx1.15/html/simpleblog
+  root: /opt/app/nginx-1.21.6/html/simpleblog
   port: 22
   delete: true
   verbose: true
