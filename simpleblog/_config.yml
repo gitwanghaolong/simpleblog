@@ -100,8 +100,8 @@ theme: hueman
 deploy:
   type: rsync
   host: 123.60.176.244
-  user: hexo
-  root: /opt/app/nginx-1.21.6/html/simpleblog
+  user: whl
+  root: /home/whl/nginx/html/simpleblog
   port: 22
   delete: true
   verbose: true
