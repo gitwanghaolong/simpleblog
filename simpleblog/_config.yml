@@ -99,7 +99,7 @@ theme: hueman
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: rsync
-  host: 123.60.176.244
+  host: 139.224.210.198
   user: whl
   root: /home/whl/nginx/html/simpleblog
   port: 22
